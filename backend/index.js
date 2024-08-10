@@ -26,9 +26,6 @@ app.post("/check-performance", async (req, res) => {
 
   const browser = await puppeteer.launch({
     headless: true,
-    cacheDir: "/opt/render/.cache/puppeteer",
-    executablePath:
-      "/opt/render/.cache/puppeteer/chrome/linux-127.0.6533.99/chrome-linux64/chrome",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();
