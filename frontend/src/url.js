@@ -1,3 +1,3 @@
-const link = "https://revly-assignment-latest.onrender.com";
+const link = "https://vigilant-respect-production.up.railway.app";
 
 export default link;
