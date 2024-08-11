@@ -1,3 +1,3 @@
-const link = "https://revly-io-assignment-udsi.onrender.com";
+const link = "https://revly-assignment-latest.onrender.com";
 
 export default link;
